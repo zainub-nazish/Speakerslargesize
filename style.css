@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: inline-block;
+}
+nav{
+    padding: 20px;
+    
+    width: 96%;
+    margin: auto;
+    background-color: rgb(82, 76, 76);
+}
+
+nav .logo{
+    width: 30%;
+    color: white;
+}
+nav .anchors{
+    width: 68%;
+    text-align: right;
+    
+}
+
+nav .anchors a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+   
+}
+nav .anchors a:hover{
+    color: rgb(223, 194, 29); 
+}
+button{
+    background-color: rgb(82, 76, 76); 
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+     
+}
+nav .anchors button:hover{
+  color: rgb(223, 194, 29); 
+}
+
+
+/* intro section */
+.introSection{
+   margin-top: 0;
+    display: table;
+    background-color: rgb(82, 76, 76);  
+}
+.introSection .col1{
+    width: 40%;
+    display: table-cell;
+    vertical-align: middle;
+     padding-left: 100px;
+}
+
+.introSection .col2{
+    width: 40%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.introSection .col2 img{
+    margin-top: 54px;
+}
+h1{
+    color: rgb(148, 70, 221);
+}
+p{
+    color: white;
+}
+.introSection .col1 button{
+    padding: 15px 30px;
+    margin: 20px 0;
+    color: black;
+    background-color: rgb(223, 194, 29);
+    border-radius: 10px;
+   
+} 
+.introSection .col1 button:hover{
+    color:aquamarine
+}
+c0l3{
+    background-color:rgb(82, 76, 76); 
+}
+
+
+
+.speaker{
+  background-color:  rgb(82, 76, 76);
+}
+
+.speaker .spa{
+    width: 20%;
+   display: inline-block;
+    margin: 10px 10px;
+    box-shadow: 2px 2px 10px;
+     padding: 10px;
+     border-radius: 10px;
+
+}
+.speaker .spa img{
+    width: 100%;
+    background-color: rgb(120, 120, 128);
+ 
+}
+.speaker .spa .h2{
+   
+    text-align: center;
+    margin: 0;
+}
+.speaker .spa .p{
+    text-align: left;
+    margin: 50px 0;
+
+}
+.speaker .spa .col1{
+text-align: justify;
+margin: 50 0;
+}
+
+.speaker .spa .button{
+
+    padding: 5px 10px;
+    border-radius: 5px;
+  
+}
+.speaker .spa .image img:hover{
+   color: rgb(223, 194, 29);
+   transform: scale(1.2);
+   transition: 0.3sec;
+ /* size: 0cqmin; */
+}
+
+
+
